@@ -2,10 +2,12 @@
   "name": "vite-first-project",
   "version": "0.0.0",
   "scripts": {
+    "start": "vite",
     "start-dev": "vite --mode development",
     "start-test": "vite --mode test",
     "start-uat": "vite --mode uat",
     "start-pro": "vite --mode release",
+    "build": "vite build",
     "build-dev": "vite build --mode development",
     "build-test": "vite build --mode test",
     "build-pro": "vite build --mode release"
